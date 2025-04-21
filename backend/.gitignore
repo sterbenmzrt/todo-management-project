@@ -1,0 +1,16 @@
+# Golang binary
+*.exe
+*.out
+*.test
+*.sum
+
+# Logs
+*.log
+
+# Vendor dependencies
+vendor/
+
+# IDE specific files
+.idea/
+.vscode/
+/backend

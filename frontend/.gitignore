@@ -1,0 +1,11 @@
+.dart_tool/
+.packages
+.pub/
+build/
+flutter_*.png
+generated_plugin_registrant.dart
+.flutter-plugins*
+Pods/
+*.xcworkspace/
+*.log
+*.tmp
