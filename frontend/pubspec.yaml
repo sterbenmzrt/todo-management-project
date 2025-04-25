@@ -9,14 +9,25 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_bloc:
-    ^8.1.3
+  flutter_bloc: ^8.1.3
   http: ^1.3.0
-
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_native_splash: ^2.3.1
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/logo.png
+    - assets/animated_logo.gif
+
+flutter_native_splash:
+  color: "#f7f6f1" # Background color for the splash screen
+  image: assets/logo.png # Path to your logo
+  color_dark: "#272727" # Background color for dark mode
+  image_dark: assets/logo.png # Path to your logo for dark mode
+  android: true
+  ios: true
+  web: true
