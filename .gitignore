@@ -130,3 +130,4 @@ app.*.symbols
 # Environment files
 *.env
 .env
+
